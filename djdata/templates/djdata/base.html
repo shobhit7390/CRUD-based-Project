@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Crud Application</title>
+    <link rel="stylesheet" href="{% static 'djdata/css/bootstrap.min.css' %}">
+</head>
+<body>
+<div class="container mt-5">
+    <h2 class="text-center alert alert-primary">My Crud Operation</h2>
+    {% block content %} {% endblock content %}
+
+</div>
+
+<script src="{% static 'djdata/js/jquery.js' %}"></script>
+<script src="{% static 'djdata/js/popper.js' %}"></script>
+<script src="{% static 'djdata/js/bootstrap.min.js' %}"></script>
+</body>
+</html>
